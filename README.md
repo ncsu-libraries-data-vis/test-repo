@@ -18,13 +18,17 @@ The following instructions walk through the process of creating a new GitHub rep
 1. Create a new repository name:
     1. The name should be short (approximately five words or less) and descriptive.
     1. Separate each word with a dash (-).
+
         > For example:
         >
         > The workshop "An Introduction to Programming with Python" has the repository name *introduction-to-programming-with-python*.
-1. Add a short description of the repository (approximately one to two sentences). 
+
+1. Add a short description of the repository (approximately one to two sentences).
+
     > For example:
     >
     > The workshop "An Introduction to Programming with Python" has the description *These materials introduce fundamental concepts of programming through the Python programming language.*
+
 1. In most cases, the repository should be set to public–anyone on the internet can see the repository but cannot automatically commit.
 1. Initialize the new repository with:
     1. A [README file](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-readmes) (This file will eventually contain an in depth description of the repository materials.)
