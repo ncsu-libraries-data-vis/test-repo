@@ -15,13 +15,27 @@ The following instructions walk through the process of creating a new GitHub rep
 1. In a browser, navigate to the [NC State Libraries Data & Vis Organization](https://github.com/ncsu-libraries-data-vis).
 1. Click the button labeled *New* in the upper-right corner.
 1. On the **Create a new repository page** the default owner should be set to *ncsu-libraries-data-vis*.
-1. Create a new repository name that is short (approximately five words or less) and descriptive. Separate each word with a dash (-). For example, the workshop "An Introduction to Programming with Python" has the repository name *introduction-to-programming-with-python*.
-1. Add a short description (approximately one to two sentences) of the repository. For example, the workshop "An Introduction to Programming with Python" has the description *These materials introduce fundamental concepts of programming through the Python programming language.*
+1. Create a new repository name:
+    1. The name should be short (approximately five words or less) and descriptive.
+    1. Separate each word with a dash (-).
+        > For example:
+        >
+        > The workshop "An Introduction to Programming with Python" has the repository name *introduction-to-programming-with-python*.
+1. Add a short description of the repository (approximately one to two sentences). 
+    > For example:
+    >
+    > The workshop "An Introduction to Programming with Python" has the description *These materials introduce fundamental concepts of programming through the Python programming language.*
 1. In most cases, the repository should be set to public–anyone on the internet can see the repository but cannot automatically commit.
-1. Initialize the new repository with a:
-    1. README file (This file will eventually contain an in depth description of the repository materials.)
-    1. .gitignore file (If using a specific language/tool, select an appropriate template. For example, the workshop "An Introduction to Programming with Python" uses the Python template.)
-    1. License (From the license options select *MIT License*.)
+1. Initialize the new repository with:
+    1. A [README file](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-readmes) (This file will eventually contain an in depth description of the repository materials.)
+    1. A [License file](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository) (From the license options select [MIT License](https://choosealicense.com/licenses/mit/). The copyright attribution on line 3 of this file, `Copyright (c) 2021 NC State Libraries Data & Vis`, should eventually be edited to: `Copyright (c) 2021 NC State University`)
+    1. *If using a specific language/tool*, a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) using the appropriate provided template.
+
+        > For example:
+        >
+        > The workshop "An Introduction to Programming with Python" uses the Python template.
+
+        If there is not an appropriate template for the new repository, skip creating a .gitignore file. A .gitignore files should eventually be created in the root folder of the repository. A good base .gitignore configuration example is available in ["Some common .gitignore configurations"](https://gist.github.com/octocat/9257657).
 1. Click the button labeled *Create repository*
 
 ## Step 2a: Using Git from the terminal
