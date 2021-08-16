@@ -45,3 +45,37 @@ The following instructions walk through the process of creating a new GitHub rep
 ## Step 2a: Using Git from the terminal
 
 ## Step 2b: Using GitHub Desktop
+
+### Adding new materials
+1. In Github, navigate to your repository.
+3. Click on the green "Code" button in the top right.
+4. Select "Open with GitHub Desktop."
+5. In the GitHub Desktop app, select a local path.
+    > You are creating a copy of the repository on your machine to edit, so choose a local path that makes sense for you (for example: a folder that stores all of your GitHub repositories).
+6. Click the blue "Clone" button.
+7. Access the instruction materials on your computer.
+    > If you are transferring materials from a shared Drive, this may mean downloading the entire folder for the workshop materials and unzipping them.
+8. Move the folder of downloaded materials into the folder you chose earlier for your local path. This will move the materials into your local copy of the repository.
+9. In GitHub desktop, you should now see in the left pane that there are changed files (the ones you just moved).
+10. Commit to the main branch
+    1. At the bottom left, write a short title for your commit and an optional description.
+    1. Click on the blue "Commit to main" button
+11. Push commits to the origin.
+    1. At the top toolbar, the right-most box should now give you the option to "Push origin," click on that box to push.
+    2. Alternatively, in the right pane, you should now see the option to push commits to the origin remote.
+1. Click the blue "Push origin" button.
+
+### Editing existing materials
+1. Before editing, fetch the most recent changes and check to make sure you are in the right branch.
+    1. Check your branch and create new branches in the middle dropdown of the UI called "Cuurent branch."
+    1. Click the rightmost box in the top toolbar that says "Fetch origin"
+    > This will make your local copy match the one in the GitHub repository. If you have changes that you have not pushed, this may cause a conflict.
+2. Make your edits as usual and save to the same file.
+3. In GitHub desktop, you should now see in the left pane that there are changed files (the ones you just moved).
+10. Commit to the main branch
+    1. At the bottom left, write a short title for your commit and an optional description.
+    1. Click on the blue "Commit to main" button
+11. Push commits to the origin.
+    1. At the top toolbar, the right-most box should now give you the option to "Push origin," click on that box to push.
+    2. Alternatively, in the right pane, you should now see the option to push commits to the origin remote.
+1. Click the blue "Push origin" button.
