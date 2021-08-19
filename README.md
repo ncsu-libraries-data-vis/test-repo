@@ -39,7 +39,8 @@ The following instructions walk through the process of creating a new GitHub rep
         >
         > The workshop "An Introduction to Programming with Python" uses the Python template.
 
-        If there is not an appropriate template for the new repository, skip creating a .gitignore file. A .gitignore files should eventually be created in the root folder of the repository. A good base .gitignore configuration example is available in ["Some common .gitignore configurations"](https://gist.github.com/octocat/9257657).
+        If there is not an appropriate template for the new repository, skip creating a .gitignore file. A .gitignore files should eventually be created in the root folder of the repository. A good base .gitignore configuration example is available in ["Some common .gitignore configurations"](https://gist.github.com/octocat/9257657). You can also explore [this collection of .gitignore templates](https://github.com/github/gitignore) for a relevant template for your materials (e.g., there is a [template for Microsoft Office](https://github.com/github/gitignore/blob/master/Global/MicrosoftOffice.gitignore) for PowerPoint, Excel, etc.).
+
 1. Click the button labeled *Create repository*
 
 ## Step 2a: Using Git from the terminal
