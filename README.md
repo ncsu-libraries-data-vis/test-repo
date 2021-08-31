@@ -32,7 +32,10 @@ The following instructions walk through the process of creating a new GitHub rep
 1. In most cases, the repository should be set to public–anyone on the internet can see the repository but cannot automatically commit.
 1. Initialize the new repository with:
     1. A [README file](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-readmes) (This file will eventually contain an in depth description of the repository materials.)
-    1. A [License file](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository) (From the license options select [MIT License](https://choosealicense.com/licenses/mit/). The copyright attribution on line 3 of this file, `Copyright (c) 2021 NC State Libraries Data & Vis`, should eventually be edited to: `Copyright (c) 2021 NC State University`)
+    1. *If the repository will consist of software*, a [License file](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository) (From the license options select [MIT License](https://choosealicense.com/licenses/mit/). The copyright attribution on line 3 of this file, `Copyright (c) 2021 NC State Libraries Data & Vis`, should eventually be edited to: `Copyright (c) 2021 NC State University`)
+
+        If the new repository will consist of instructional materials, skip creating a LICENSE file. Instead, manually create a LICENSE file and add copy the [Creative Commons Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/) license language contained in [the LICENSE file within this repository](https://github.com/ncsu-libraries-data-vis/using-git-and-github/blob/main/LICENSE).
+
     1. *If using a specific language/tool*, a [.gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) using the appropriate provided template.
 
         > For example:
