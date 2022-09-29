@@ -7,7 +7,7 @@ This document provides a workflow for creating and contributing to a new GitHub 
 * A GitHub account (If you do not have an account, create one through the [join GitHub page](https://github.com/join)).
 * Membership to the [NC State Libraries Data & Vis Organization](https://github.com/ncsu-libraries-data-vis) (Email Joddy or Shannon to receive an invitation).
 * Git ([Git Download page](https://git-scm.com/downloads)) **OR** GitHub Desktop ([GitHub Desktop download page](https://desktop.github.com/)).
-* Setting up a personal access token (PAT) for authentication and login (https://github.com/ncsu-libraries-data-vis/using-git-and-github.git).
+* Setting up a personal access token (PAT) for authentication and login ([Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)).
 
 ## Step 1: Create a new repository on GitHub
 
